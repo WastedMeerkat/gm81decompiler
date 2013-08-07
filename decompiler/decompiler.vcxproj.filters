@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="exe.cpp">
+      <Filter>exe</Filter>
+    </ClCompile>
+    <ClCompile Include="gm81.cpp">
+      <Filter>exe\gm81</Filter>
+    </ClCompile>
+    <ClCompile Include="gm80.cpp">
+      <Filter>exe\gm80</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gex.cpp">
+      <Filter>gex</Filter>
+    </ClCompile>
+    <ClCompile Include="obfuscation.cpp" />
+    <ClCompile Include="gmk.cpp">
+      <Filter>gmk</Filter>
+    </ClCompile>
+    <ClCompile Include="gmkstream.cpp">
+      <Filter>gmk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="exe">
+      <UniqueIdentifier>{2b90ca8a-d085-4f4a-aab8-ed464f272b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exe\gm81">
+      <UniqueIdentifier>{fe2b4cae-ed65-4224-ae59-c041fc9161c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exe\gm80">
+      <UniqueIdentifier>{acd350a4-06ad-4133-b3ae-2ff3de1b0a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exe\gm70">
+      <UniqueIdentifier>{d24fac48-c6f3-4511-b774-1e7c29a81b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{e2ec2241-5711-48ad-bf23-9da74373b6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gex">
+      <UniqueIdentifier>{9b70784b-ae35-4d24-94e6-7ea836697902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gmk">
+      <UniqueIdentifier>{827040de-4377-457a-94c1-370922818eb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="exe.hpp">
+      <Filter>exe</Filter>
+    </ClInclude>
+    <ClInclude Include="gm81.hpp">
+      <Filter>exe\gm81</Filter>
+    </ClInclude>
+    <ClInclude Include="gm80.hpp">
+      <Filter>exe\gm80</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.hpp">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gex.hpp">
+      <Filter>gex</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscation.hpp" />
+    <ClInclude Include="gmk.hpp">
+      <Filter>gmk</Filter>
+    </ClInclude>
+    <ClInclude Include="gmkstream.hpp">
+      <Filter>gmk</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

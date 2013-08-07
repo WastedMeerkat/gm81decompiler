@@ -1,0 +1,23 @@
+﻿  obfuscation.cpp
+  main.cpp
+  gui.cpp
+  gmkstream.cpp
+  gmk.cpp
+  gm81.cpp
+c:\users\owner\documents\github\gm81decompiler\decompiler\gm81.cpp(87): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+  gm80.cpp
+  gex.cpp
+  exe.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+zlib.lib(adler32.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(adler32.obj)' or at 'C:\Users\Owner\Documents\GitHub\gm81decompiler\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(compress.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(compress.obj)' or at 'C:\Users\Owner\Documents\GitHub\gm81decompiler\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(crc32.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(crc32.obj)' or at 'C:\Users\Owner\Documents\GitHub\gm81decompiler\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(deflate.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(deflate.obj)' or at 'C:\Users\Owner\Documents\GitHub\gm81decompiler\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(inffast.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(inffast.obj)' or at 'C:\Users\Owner\Documents\GitHub\gm81decompiler\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(inflate.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(inflate.obj)' or at 'C:\Users\Owner\Documents\GitHub\gm81decompiler\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(inftrees.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(inftrees.obj)' or at 'C:\Users\Owner\Documents\GitHub\gm81decompiler\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(trees.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(trees.obj)' or at 'C:\Users\Owner\Documents\GitHub\gm81decompiler\Debug\zlib.pdb'; linking object as if no debug info
+zlib.lib(zutil.obj) : warning LNK4099: PDB 'zlib.pdb' was not found with 'zlib.lib(zutil.obj)' or at 'C:\Users\Owner\Documents\GitHub\gm81decompiler\Debug\zlib.pdb'; linking object as if no debug info
+  decompiler.vcxproj -> C:\Users\Owner\Documents\GitHub\gm81decompiler\Debug\decompiler.exe

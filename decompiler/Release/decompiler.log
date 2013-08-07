@@ -1,0 +1,16 @@
+﻿  exe.cpp
+  gex.cpp
+  gm80.cpp
+  gm81.cpp
+gm81.cpp(87): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+  gmk.cpp
+  gmkstream.cpp
+  gui.cpp
+  main.cpp
+  obfuscation.cpp
+  Generating code
+  Finished generating code
+zlib.lib(zutil.obj) : warning LNK4049: locally defined symbol _malloc imported
+zlib.lib(zutil.obj) : warning LNK4049: locally defined symbol _free imported
+  decompiler.vcxproj -> C:\Users\Owner\Documents\GitHub\gm81decompiler\Release\decompiler.exe
